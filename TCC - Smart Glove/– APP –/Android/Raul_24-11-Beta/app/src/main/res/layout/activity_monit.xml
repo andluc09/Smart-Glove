@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ExercicioActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/lblexercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flexão"
+        android:textColor="#7496D4"
+        android:layout_marginBottom="15dp"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imgexercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/img_treino" />
+
+    <TextView
+        android:id="@+id/lblx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posição em X"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/xtxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:text="0"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lbly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posição em Y"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ytxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posição em Z"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ztxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorforçaindicador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Força Dedo Indicador"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorforçaindicadortxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorforçamédio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Força Dedo Médio"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorforçamédiotxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorforçaanelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Força Dedo Anelar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorforçaanelartxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorforçaminimo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Força Dedo Mínimo"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorforçaminimotxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorforçapolegar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Força Dedo Polegar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorforçapolegartxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorflexindicador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Curvatura Dedo Indicador"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorflexindicadortxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorflexmedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Curvatura Dedo Médio"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorflexmediotxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorflexanelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Curvatura Dedo Anelar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorflexanelartxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorflexminimo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Curvatura Dedo Mínimo"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorflexminimotxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <TextView
+        android:id="@+id/lblsensorflexpolegar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Curvatura Dedo Polegar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sensorflexpolegartxt"
+        android:maxLines="1"
+        android:inputType="text"
+        android:text="0"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_caixa_texto" />
+
+    <Button
+        android:id="@+id/concluirbtn"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="Concluir"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@drawable/background_botao_azul"
+        />
+
+    <Button
+        android:id="@+id/cancelbtn"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Cancelar"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/background_botao_vermelho"
+        />
+
+
+
+
+</LinearLayout></ScrollView>

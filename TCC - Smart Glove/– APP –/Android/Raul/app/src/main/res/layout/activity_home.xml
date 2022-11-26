@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/lblselecione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione"
+        android:textColor="#7496D4"
+        android:layout_marginBottom="40dp"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/imgmonitorar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/monitorartxt"
+        app:srcCompat="@drawable/cam" />
+
+    <TextView
+        android:id="@+id/monitorartxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monitorar"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imgdados"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/file" />
+
+    <TextView
+        android:id="@+id/dadostxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de Dados"
+        android:layout_marginBottom="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imgcadastropaciente"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/mais" />
+
+
+    <TextView
+        android:id="@+id/cadastrarpacientetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Paciente"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+</LinearLayout>
+</ScrollView>

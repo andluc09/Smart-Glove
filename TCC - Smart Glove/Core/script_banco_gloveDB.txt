@@ -1,0 +1,43 @@
+create table Paciente
+(
+	cod_pac int primary key,
+	num_rg_pac int not null,
+	nom_pac varchar(40) not null,
+	dat_nasc_pac date not null,
+	gen_pac binary not null,
+	tel_pac int not null,
+	end_pac varchar(250) not null,
+	email_pac varchar(50) not null,
+	obs_pac varchar(300) null
+);
+
+create table Profissional
+(
+	cod_pro int primary key,
+	nom_usu varchar(8) not null,
+	sen_pro varchar(10) not null,
+	num_rg_pro int not null,
+	num_cre  int not null,
+	nom_pro varchar(40) not null,
+	dat_nasc_pro date not null,
+	gen_pro binary not null,
+	tel_pro int not null,
+	end_pro varchar(250) not null,
+	email_pro varchar(50) not null
+);
+
+create table Registro_de_dados
+(
+	cod_reg_pac int primary key,
+	cod_pac int,
+	cod_pro int,
+	sensor1 varchar(8) not null,
+	sensor2 varchar(8) not null,
+	sensor3 varchar(8) not null,
+	sensor4 varchar(8) not null,
+	sensor5 varchar(8) not null,
+	sensor6 varchar(8) not null,
+	dat_hor datetime not null,
+    foreign key(cod_pac) references Paciente(cod_pac),
+    foreign key(cod_pro) references Profissional(cod_pro) 
+);

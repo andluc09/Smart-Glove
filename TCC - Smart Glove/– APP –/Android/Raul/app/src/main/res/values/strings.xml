@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Raul</string>
+    <string name="parametros_paciente">Selecione</string>
+    <string-array name="lista_parametros">
+        <item>Código</item>
+        <item>Número do RG</item>
+        <item>E-mail</item>
+        <item>Nome do Paciente</item>
+        <item>N° do Telefone</item>
+    </string-array>
+</resources>

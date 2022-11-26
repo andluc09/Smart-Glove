@@ -1,0 +1,5 @@
+
+C:\Users\André Lucas\OneDrive\Área de Trabalho\CCLoader.exe 7 C:\Users\André Lucas\OneDrive\Área de Trabalho\CC2541hm10v540.bin 0
+
+
+CCLoader.exe 7 CC2541hm10v540.bin 0

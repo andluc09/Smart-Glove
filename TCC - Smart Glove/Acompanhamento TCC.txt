@@ -1,0 +1,24 @@
+
+05 LIVROS 
+
+• Exercicios terapêuticos : fundamentos e técnicas (André)
+
+• Arduino descomplicado :como elaborar projetos de eletrônica (Raul)
+
+• Fisioterapia Neurofuncional -Aspectos Clínicos e Práticos (Lucas) 
+
+• Sistemas embarcados :hardware e firmware na prática (Luan)
+
+• Gamificação - Oriana Gai (André)
+
+05 ARTIGOS
+
+• Desenvolvimento de um dispositivo passivo para reabilitação motora de uma mão: https://repositorio-aberto.up.pt/bitstream/10216/90303/2/31683.pdf (Lucas)
+
+• Sensorização espacial no contexto da reabilitação humana: https://repositorio-aberto.up.pt/handle/10216/126681 (André)
+
+• Conceção de uma luva sensorial para avaliação da capacidade de aposição do polegar: https://repositorio-aberto.up.pt/handle/10216/80857 (André)
+
+• Projeto e Desenvolvimento de uma Dataglovede Baixo Custo para Aplicações em Realidade Virtual:https://dspace.mackenzie.br/bitstream/handle/10899/20082/RABAH%20ZEINEDDINE.pdf?sequence=1&isAllowed=y (Raul)
+
+• Design of an Inertial-Sensor-Based Data Glove for Hand Function Evaluation:https://www.mdpi.com/1424-8220/18/5/1545/htm (Luan)

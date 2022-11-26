@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PacienteActivity">
+
+
+<EditText
+    android:id="@+id/usuariocadastrotxt3"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="13dp"
+    android:layout_marginEnd="13dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/background_caixa_texto"
+    android:ems="10"
+    android:hint="Nome Completo"
+    android:padding="10dp"
+    app:layout_constraintBottom_toTopOf="@+id/genero"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+
+<Button
+    android:id="@+id/cadastrarbtn"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="13dp"
+    android:text="Cadastrar"
+    android:textColor="@color/white"
+    app:layout_constraintBottom_toTopOf="@+id/progressBar2"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+    android:background="@drawable/background_botao_azul"/>
+
+<ProgressBar
+    android:id="@+id/progressBar2"
+    style="?android:attr/progressBarStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="30dp"
+    android:layout_marginBottom="3dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/cadastrarbtn"
+    app:layout_constraintTop_toBottomOf="@+id/cadastrarbtn"
+    android:visibility="gone"/>
+
+<EditText
+    android:id="@+id/dataNascimento"
+    android:layout_width="125dp"
+    android:layout_height="40dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="179dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="180dp"
+    android:background="@drawable/background_caixa_texto"
+    android:ems="10"
+    android:hint="Nascimento"
+    android:inputType="date"
+    app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress2"
+    app:layout_constraintEnd_toStartOf="@+id/genero"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/imageView5"
+    app:layout_constraintVertical_bias="0.453" />
+
+<TextView
+    android:id="@+id/genero"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="26dp"
+    android:layout_marginBottom="10dp"
+    android:text="Gênero:"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toTopOf="@+id/masculinotxt"
+    app:layout_constraintEnd_toStartOf="@+id/femininotxt"
+    app:layout_constraintStart_toEndOf="@+id/dataNascimento"
+    app:layout_constraintTop_toBottomOf="@+id/usuariocadastrotxt3" />
+
+<RadioButton
+    android:id="@+id/masculinotxt"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginEnd="7dp"
+    android:text="Masculino"
+    app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
+    app:layout_constraintEnd_toStartOf="@+id/femininotxt"
+    app:layout_constraintStart_toEndOf="@+id/dataNascimento"
+    app:layout_constraintTop_toBottomOf="@+id/genero" />
+
+<RadioButton
+    android:id="@+id/femininotxt"
+    android:layout_width="156dp"
+    android:layout_height="105dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="163dp"
+    android:text="Feminino"
+    app:layout_constraintBottom_toTopOf="@+id/textInputLayout4"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/genero"
+    app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+<EditText
+    android:id="@+id/editTextPhone"
+    android:layout_width="0dp"
+    android:layout_height="60dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/background_caixa_texto"
+    android:ems="10"
+    android:hint="Telefone"
+    android:inputType="phone"
+    app:layout_constraintBottom_toTopOf="@+id/editTextTextPostalAddress"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/masculinotxt" />
+
+<EditText
+    android:id="@+id/editTextTextPostalAddress"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="9dp"
+    android:layout_marginEnd="9dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/background_caixa_texto"
+    android:ems="10"
+    android:hint="Endereço"
+    android:inputType="textPostalAddress"
+    app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+<EditText
+    android:id="@+id/editTextTextEmailAddress2"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="9dp"
+    android:layout_marginEnd="9dp"
+    android:layout_marginBottom="7dp"
+    android:background="@drawable/background_caixa_texto"
+    android:ems="10"
+    android:hint="E-mail"
+    android:inputType="textEmailAddress"
+    app:layout_constraintBottom_toTopOf="@+id/textInputLayout4"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress" />
+
+<ImageView
+    android:id="@+id/imageView5"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="29dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginEnd="35dp"
+    android:layout_marginBottom="89dp"
+    android:src="@drawable/paciente"
+    app:layout_constraintBottom_toTopOf="@+id/femininotxt"
+    app:layout_constraintEnd_toStartOf="@+id/editTextNumber2"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/codtxt"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginTop="14dp"
+    android:layout_marginBottom="14dp"
+    android:background="@drawable/background_caixa_texto"
+    android:ems="10"
+    android:hint="Código"
+    android:inputType="number"
+    app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
+    app:layout_constraintEnd_toEndOf="@+id/editTextNumber2"
+    app:layout_constraintStart_toStartOf="@+id/editTextNumber2"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/editTextNumber2"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginEnd="13dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/background_caixa_texto"
+    android:ems="10"
+    android:hint="RG"
+    android:inputType="number"
+    app:layout_constraintBottom_toTopOf="@+id/usuariocadastrotxt3"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/imageView5"
+    app:layout_constraintTop_toBottomOf="@+id/codtxt" />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/textInputLayout4"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginBottom="119dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/femininotxt">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Observações" />
+</com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

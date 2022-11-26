@@ -1,0 +1,171 @@
+
+HARDWARE
+
+# VCC
+
+   Sensor Flex: 5 cabos + Resistores +  5 cabos + Barra de 6 pinos conector + Emenda Terminais + 1 cabo [Principal]
+
+   Sensor de Força: 5 cabo + Barra de 6 pinos conector + Emenda Terminais + 1 cabo [Principal]
+
+   MPU-9250: 1 cabo
+
+   HM-10: 1 cabo [Principal]
+   
+   3 cabos [Principal] + Barra de 6 pinos conector + Uma Emenda Terminais + 1 x Cabo Principal 
+________________________________________________________________________________________________________________________________________
+
+# GND
+
+   Sensor Flex: 5 cabos + Barra de 6 pinos conector + Emenda Terminais + 1 cabo [Principal]
+
+   Sensor de Força: 5 cabos + Resistores +  5 cabos + Barra de 6 pinos conector + Emenda Terminais + 1 cabo [Principal]
+
+   MPU-9250: 1 cabo [Principal]
+
+   HM-10: 1 cabo [Principal]
+
+   4 cabos [Principal] + Barra de 6 pinos conector + Duas Emendas Terminais + 2 x Cabo Principal 
+________________________________________________________________________________________________________________________________________
+
+Resistores:
+
+   82kΩ (x5) —> Valor Comercial: 100kΩ
+
+   82Ω (x5) –> Valor Comercial: 100Ω 
+
+________________________________________________________________________________________________________________________________________
+
+Cabos:
+
+   Emenda Terminais = 7 cabos desencapados (cabo de rede de 30 cm) ou cabos sobressalentes adquiridos.
+
+		   Legenda:
+	
+	   MF - Macho Fêmea
+	   FF - Fêmea Fêmea
+	   MM - Macho Macho 
+
+
+   | Vermelhos —> CC ou DC (cor exemplo)
+
+      (x20 ao todo) | << Sendo 13 MF e 7 FF >>  
+
+      *' MF (1x) Sensor Flex
+      FF (5x) Sensor Flex
+      MF (5x) Sensor Flex
+
+      *' MF (1x) Sensor de Força
+      MF (5x) Sensor de Força
+
+      FF (x1) MPU-9250
+
+      *' MF (x1) HM-10
+
+      *'*' FF (x1) Cabo Principal
+
+
+   | Pretos —> GND (cor exemplo)
+
+      (x21 ao todo) | << Sendo 14 MF e 7 FF >>
+
+      *' MF (1x) Sensor Flex
+      MF (5x/) Sensor Flex
+
+      *' MF (1x) Sensor de Força
+      FF (5x) Sensor de Força
+      MF (5x) Sensor de Força
+
+      *'' MF (x1) MPU-9250
+
+      *'' MF (x1) HM-10
+
+      *'*'' FF (x2) Cabo Principal
+
+
+   | Azul (Bluetooth), a cor exemplo
+
+      FF (x2)  HM-10
+
+
+
+   | Laranja (Giroscópio/ Acelerômetro), a cor exemplo
+
+      FF (x2) MPU-9250
+
+
+       Mão.... Total: << 10 MF e 10 FF >>	
+
+
+         	Agrupamento por dedo, a cor exemplo:
+
+    Dedo 1:
+
+   | Anil 
+
+      (x4 = Sensor Flex/ Sensor de Força)
+
+      MF (x2)
+
+      FF (x2)
+
+
+    Dedo 2:
+
+   | Amarelo 
+
+      (x4 = Sensor Flex/ Sensor de Força)
+
+      MF (x2)
+
+      FF (x2)
+
+
+    Dedo 3:
+
+   | Verde 
+
+      (x4 = Sensor Flex/ Sensor de Força)
+
+      MF (x2)
+
+      FF (x2)
+
+
+    Dedo 4:
+
+   | Branco 
+
+      (x4 = Sensor Flex/ Sensor de Força)
+
+      MF (x2)
+
+      FF (x2)
+
+
+    Dedo 5:
+
+   | Cinza 
+
+      (x4 = Sensor Flex/ Sensor de Força)
+
+      MF (x2)
+
+      FF (x2)
+
+________________________________________________________________________________________________________________________________________
+
+   Barra de 6 pinos conector fêmea empilhável Arduino
+
+      (x8 ao todo)
+
+      VCC (x3)
+
+      GND (x3)
+
+      Sensores (x2 = Sensor Flex/ Sensor de Força)
+
+//________________________________________________________________________________________________________________________________________//
+
+   TOTAL CABOS: 61 unidades + 30 cm de cabo de rede (ou cabos sobressalentes adquiridos)
+
+	      37 MF e 24 FF
